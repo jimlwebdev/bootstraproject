@@ -1,6 +1,76 @@
-html{}
+
+
 body{}
-header{}
-nav{}
-main{}
-footer{}
+
+header{position:fixed;top:0;left:0;height:120px;color:#fff;}
+header .blackbar{background:url(../images/bg-header.png) repeat;height:50%;padding:10px 0 0 0;}
+header .greybar{background:#c9c9c9;height:50%;padding:10px 0 0 0;}
+
+main{padding:140px 0 100px 0;}
+main p{border:1px solid #000;padding:0 5px;margin:0;}
+
+footer{position:fixed;bottom:0;left:0;background:url(../images/bg-main.png) repeat;height:60px;color:#fff;}
+footer .orangebar{padding:10px 0 0 0;}
+
+header span{font-size:24px;}
+
+.glyphicon{background-size:100% 100%; background-repeat: no-repeat;height:30px;width:30px;}
+header .glyphicon{color:#428bca;}
+header .greybar .glyphicon, footer .glyphicon{}
+header .greybar .text-right{padding-right:5px;}
+header .greybar .nopad{padding:0;}
+header .greybar .text-left{}
+
+.glyphicon-app-down {
+  background-image: url(../icons/down_triangle.png);
+  background-size:15px 15px;
+  background-position:center right;
+  background-repeat:no-repeat;
+}
+
+.glyphicon-app-newmail {
+  background-image: url(../icons/new-mail-gray.png);
+  width:66px;height:28px;
+}
+
+.glyphicon-app-cog {
+  background-image: url(../icons/setup-option-cog.png);
+}
+.glyphicon-app-search {
+  background-image: url(../icons/search-orange.png);
+}
+.glyphicon-app-repeat {
+  background-image: url(../icons/repeat-on.png);
+}
+
+
+
+.glyphicon-app-openenv{
+background-image: url(../images/open-env-gray.png);
+}
+.glyphicon-app-btnsend{
+background-image: url(../images/btn-send.png);
+}
+.glyphicon-app-trashbin{
+background-image: url(../images/trashbin.png);
+}
+.glyphicon-app-refresh{
+background-image: url(../images/refresh-orange.png);
+}
+
+.glyphicon-app-back{
+background-image: url(../images/back-arrow-org.png);
+}
+.glyphicon-app-save{
+background-image: url(../images/save.png);
+}
+.glyphicon-app-attach{
+background-image: url(../images/paperclip.png);
+}
+.glyphicon-app-options{
+background-image: url(../images/options-orange.png);
+}
+
+.bold{font-weight:bold;}
+.black{color:#000;}
+.orange{color:orange;}
